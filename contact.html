@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Contacts Us at Adventures Insurance"/>
+    <meta name="keywords" content="Adventures Insurance, Adventure, Insurance, Animals, Llama, Petting Zoo, Mission Statement, Our Mission, Carnivals, Zoos, Circuses, Amusement Parks, Fairs, Contact Information, First Name, Last Name, Email, Phone Number, Comments."/>
+    <meta name="author" content="Justin Sunday"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Adventures Insurance | Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <section class="darkbackground">
+        <header>
+            <img class="logo" src="images/logo.png" alt="Adventures Insurance Logo" title="Adventures Insurance Logo" />
+            <br />
+            <img class="logobackground" src="images/pettingzoo.jpg" alt="Example of Petting Zoo Layout" title="Petting Zoo" />
+            <br />
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <section class="middle">
+         <div class="middlediv">
+             <h1>Contact Adventures Insurance</h1>
+             <form action="http://www.severien.com/grit/formecho.php" method="post" id="theform" onsubmit="return validate();">
+                <label>First Name: </label>
+                <input type="text" name="firstname"  id="firstname" required="required" class="info" autofocus="autofocus" value="First Name" />
+                <label>Last Name: </label>
+                <input type="text" name="lastname"  id="lastname" required="required" placeholder="Last Name" class="info" />
+                <label>Email: </label>
+                <input type="email" name="email"  id="email" required="required" placeholder="Email Address" class="info" value="Email" />
+                <label>Phone #: </label>
+                <input type="tel" name="phonenumber"  id="phonenumber" class="info" value="5553334444" />
+                <label class="email">Contact me by email: </label>
+                <input type="checkbox" name="contactbyemail"  id="emailcontact" class="check" />
+                <label>Contact me by phone: </label>
+                <input type="checkbox" name="contactbyphone"  id="phonecontact" class="check" />
+                <br />
+                <br />
+                <br />
+                <br />
+                <label class="comment">Comments: </label>
+                <textarea name="comments"  id="comment" placeholder="Let us know what you think!" class="box"></textarea>
+                <input type="submit" value="Submit" class="submitbtn" id="submitbttn"/>
+             </form>
+         </div>
+    </section>
+        <section class="darkbackground">
+        <footer>
+            <p class="below" id="copyright">
+                <script>
+                    var d = new Date();
+                    document.getElementById("copyright").innerHTML = "Copyright " + d.getFullYear() + " &copy; Adventures Insurance";
+                </script>
+            </p>
+            <p class="social">
+                <img src="images/facebookgray.png" class="socialbtn" alt="Click for Adventures Insurance Facebook Page" title="Facebook Button" />
+            </p>
+        </footer>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="js/script1.js"></script>
+
+</body>
+</html>
