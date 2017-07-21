@@ -8,7 +8,7 @@ For the Home page (index), we were given basic instructions like font-family, si
 <br/>
 <br/>
 For the Contact page, we were supposed to use the Home page as a template, then we were given the following directions:
-<p>IN the following phase, you will create a contact us page, a contact form, apply additional CSS components, and an additional JavaScript function that returns information to the user in the form of a pop-up when the hit the submit button.</p>
+<p>In the following phase, you will create a contact us page, a contact form, apply additional CSS components, and an additional JavaScript function that returns information to the user in the form of a pop-up when the hit the submit button.</p>
 <ul>
 <li>Create the form to look as much like the screen print as possible (not included in the repository). You may need to use classes to format the labels and the form fields.</li>
 <li>Use labels for everything, not just plain text, using all of the HTML5 rules learned from the HTML5 class.</li>
