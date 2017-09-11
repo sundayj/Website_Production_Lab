@@ -1,0 +1,529 @@
+body
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma;
+    background-color: #FEFEEE;
+}
+img
+{
+    border: none;
+}
+.darkbackground
+{
+    background-image: url(../images/body_bg.gif);
+    background-position: center;
+}
+header
+{
+    background-image: url(../images/top_bg1.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 475px;
+    width: 800px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo
+{
+    margin-left: 153px;
+}
+.logobackground
+{
+    margin-left: 19px;
+    height: 360px;
+}
+nav > ul > li
+{
+    color: white;
+    font-family: inherit;
+    font-size: 1.2em;
+    line-height: normal;
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-right: 25px;
+    padding-left: 5px;
+}
+    nav > ul > li > a
+    {
+        color: white;
+        font-family: inherit;
+        line-height: normal;
+        list-style: none;
+        text-decoration: none;
+    }
+        nav > ul > li > a:hover
+        {
+            font-style: italic;
+        }
+
+/*CSS used just in the About page nav section starts here:*/
+
+.aboutnav > ul
+{
+    width: 815px;
+}
+.aboutnav > ul > li > a
+{
+    font-size: 1em;
+    transition: 130%;
+    transition-duration: .25s;
+    transition-timing-function: ease-in-out;
+}
+    .aboutnav > ul > li > a:hover
+    {
+        color: #04aff5;
+        font-size: 130%;
+    }
+
+/*CSS used just in the About page nav section ends here.*/
+
+.middle
+{
+    background-color: inherit;
+}
+.middlediv
+{
+    background-color: #FEFEEE;
+    height: 450px;
+    width: 800px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+    .middlediv > article
+    {
+        height: 400px;
+        float: left;
+    }
+        .middlediv > article > h1
+        {
+            color: #601d15;
+        }
+        .middlediv > article > p
+        {
+            width: 260px;
+        }
+article:first-of-type
+{
+    width: 350px;
+    margin-right: 20px;
+    margin-left: 40px;
+    border-right: dotted 2px #601d15;
+}
+article:last-of-type
+{
+    width: 265px;
+    margin-left: 55px;
+}
+#statebtn
+{
+    margin-top: 20px;
+    margin-left: 23px;
+}
+#statebtn:hover
+{
+    cursor: pointer;
+}
+footer
+{
+    background-image: url(../images/top_bg1.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 800px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.below
+{
+    display: inline;
+    position: relative;
+    bottom: 5px;
+    width: 300px;
+    margin-left: 25px;
+    color: white;
+    float: left;
+    margin-bottom: 10px;
+}
+.socialbtn:hover
+{
+    cursor: pointer;
+}
+.social
+{
+    position: relative;
+    right: 75px;
+    display: inline;
+    margin-right: 25px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+/*Style for Contact Us Page begins below*/
+
+form
+{
+    margin-left: 20px;
+    width: 800px;
+}
+.middlediv > h1
+{
+    margin-left: 20px;
+    color: #601d15;
+}
+label
+{
+    font-size: 20px;
+    color: #601d15;
+}
+input
+{
+    display: inline;
+    color: darkgray;
+}
+.info
+{
+    height: 24px;
+    width: 200px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+    box-shadow: 2px 2px 2px darkgray inset;
+}
+.check
+{
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px darkgray inset;
+}
+#email
+{
+    margin-left: 84px;
+}
+#phonenumber
+{
+    margin-left: 50px;
+}
+#emailcontact
+{
+    margin-right: 125px;
+}
+#phonecontact
+{
+    margin-right: 150px;
+}
+.comment
+{
+    margin-right: 75px;
+}
+.box
+{
+    display: inline;
+    height: 125px;
+    width: 525px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px darkgray inset;
+    position: relative;
+    top: -50px;
+}
+.submitbtn
+{
+    color: white;
+    background-color: #601d15;
+    box-shadow: 2px 2px 2px darkgray;
+    height: 40px;
+    width: 100px;
+    margin-left: 50px;
+    position: relative;
+    top: -40px;
+}
+
+/*Style for Contact page ends here.*/
+
+/*Style for About page (other than the nav items) begin below.*/
+
+.coaster
+{
+    float: left;
+    margin-left: 25px;
+    margin-right: 50px;
+    transform: rotate(-4deg);
+    transition-duration: .25s;
+    transition-timing-function: ease-in-out;
+    box-shadow: gray 3px 3px 3px;
+}
+    .coaster:hover
+    {
+        transform: rotate(15deg);
+    }
+.middlediv > p:first-of-type
+{
+    width: 760px;
+}
+.middlediv > p:last-of-type
+{
+    margin-left: 25px;
+    width: 760px;
+}
+@font-face
+{
+     font-family: AdventuresTitles;
+     src:url(../font/ARTIM.woff) format('woff');
+}
+.abouth1
+{
+    font-family: AdventuresTitles;
+    color: #601d15;
+}
+.middlediv > h2
+{
+    font-family: AdventuresTitles;
+    color: #601d15;
+}
+    .middlediv > h2:last-of-type
+    {
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-bottom: 5px;
+    }
+
+/*Responsive Design Starts Below*/
+
+@media (max-width: 900px)
+{
+    header
+    {
+        width: 400px;
+        height: 215px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo
+    {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .logobackground
+    {
+        display:none;
+    }
+    nav > ul > li
+    {
+        color: white;
+        font-family: inherit;
+        font-size: 1.2em;
+        line-height: normal;
+        list-style: none;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 125px;
+        display: block;
+    }
+    nav > ul > li > a
+    {
+        color: white;
+        font-family: inherit;
+        line-height: normal;
+        list-style: none;
+        text-decoration: none;
+    }
+        nav > ul > li > a:hover
+        {
+            font-style: italic;
+        }
+    .aboutnav > ul
+    {
+        width: 500px;
+    }
+        .aboutnav > ul > li > a
+        {
+            font-size: 1em;
+            transition: 130%;
+            transition-duration: .25s;
+            transition-timing-function: ease-in-out;
+        }
+            .aboutnav > ul > li > a:hover
+            {
+                color: #04aff5;
+                font-size: 130%;
+            }
+    .middlediv
+    {
+        max-width: 95%;
+        max-height: 95%;
+    }
+    footer
+    {
+        max-width: 95%;
+        display: block;
+    }
+}
+@media (max-width: 450px)
+{
+    header
+    {
+        width: 300px;
+        height: 175px;
+    }
+    .logo
+    {
+        width: 200px;
+        margin: 0px auto;
+        display: block;
+    }
+    .logobackground
+    {
+        display:none;
+    }
+    .aboutnav > ul
+    {
+        margin-top: 15px;
+        width: 200px;
+    }
+    .aboutnav > ul > li > a:hover
+    {
+        color: #04aff5;
+        font-size: 130%;
+    }
+    nav > ul
+    {
+        height: 100px;
+        width: 100px;
+        line-height: normal;
+        list-style: none;
+        display: inline;
+        float: left;
+        padding: 0px;
+        margin: 0px;
+    }
+    nav > ul > li
+    {
+        color: white;
+        font-family: inherit;
+        font-size: 1em;
+        width: 150px;
+        line-height: normal;
+        list-style: none;
+        display: inline;
+        float: left;
+        padding: 0px;
+        margin-left: 125px;
+    }
+        nav > ul > li > a
+        {
+            color: white;
+            font-family: inherit;
+            line-height: normal;
+            list-style: none;
+            text-decoration: none;
+        }
+            nav > ul > li > a:hover
+            {
+                font-style: italic;
+            }
+        .aboutnav > ul > li > a
+        {
+        font-size: 1em;
+        transition: 130%;
+        transition-duration: .25s;
+        transition-timing-function: ease-in-out;
+        }
+            .aboutnav > ul > li > a:hover
+            {
+                color: #04aff5;
+                font-size: 130%;
+            }
+    .middle
+    {
+        height: 700px;
+        width: 300px;
+    }
+    .middlediv
+    {
+       width: 400px;
+    }
+    .coaster
+    {
+        float: left;
+        margin-left: 25px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        transform: rotate(-4deg);
+        box-shadow: gray 3px 3px 3px;
+        max-height: 150px;
+    }
+        .coaster:hover
+        {
+            transform: rotate(15deg);
+        }
+    .middlediv > p:first-of-type
+    {
+        width: 400px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .middlediv > p:last-of-type
+    {
+        margin-left: 20px;
+        margin-right: 0px;
+        width: 400px;
+    }
+    .middlediv > h2:last-of-type
+    {
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-bottom: 5px;
+    }
+    .abouth1
+    {
+        font-family: AdventuresTitles;
+        color: #601d15;
+        width: 350px;
+    }
+    .middlediv > h2
+    {
+        font-family: AdventuresTitles;
+        color: #601d15;
+        width: 350px;
+        margin-left: 25px;
+    }
+    footer
+    {
+        width: 200px;
+        display: block;
+    }
+    .below
+    {
+        display: inline;
+        position: relative;
+        left: -100px;
+        width: 300px;
+        margin-left: 0px;
+        color: white;
+        float: left;
+    }
+    .social
+    {
+        position: relative;
+        right: -100px;
+        bottom: 50px;
+        display: inline;
+        margin-right: 0px;
+        float: right;
+    }
+    
+}
